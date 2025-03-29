@@ -83,13 +83,34 @@ const Navbar = () => {
             Seller Dashboard
           </button>
         )}
-        <button
-          onClick={openSignIn}
-          className="flex items-center gap-2 hover:text-gray-900 transition"
-        >
-          <Image src={assets.user_icon} alt="user icon" />
-          Account
-        </button>
+        {user ? (
+          <>
+            <UserButton>
+              <UserButton.MenuItems>
+                <UserButton.Action
+                  label="cart"
+                  labelIcon={<CartIcon />}
+                  onClick={() => router.push("/cart")}
+                />
+              </UserButton.MenuItems>
+              <UserButton.MenuItems>
+                <UserButton.Action
+                  label="My Orders"
+                  labelIcon={<BagIcon />}
+                  onClick={() => router.push("/my-orders")}
+                />
+              </UserButton.MenuItems>
+            </UserButton>
+          </>
+        ) : (
+          <button
+            onClick={openSignIn}
+            className="flex items-center gap-2 hover:text-gray-900 transition"
+          >
+            <Image src={assets.user_icon} alt="user icon" />
+            Account
+          </button>
+        )}
       </div>
     </nav>
   );
