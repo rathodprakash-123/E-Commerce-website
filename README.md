@@ -1,9 +1,18 @@
-
-# 🛒 Quick Cart - E-commerce Platform
+<div align="center">
+   
+# 🛒 Quick Cart - E-commerce Platform 🌐
 
 Welcome to **Quick Cart**, a modern and scalable e-commerce platform built with cutting-edge technologies to deliver a seamless shopping experience. 🚀
 
----
+<br /><hr /><br />
+
+## LIVE - DEMO 🌐
+  
+VISIT 👉 [LINK](https://quick-cart-beta-bice.vercel.app)
+
+</div>
+
+<br /><hr /><br />
 
 ## 🌟 Features
 
@@ -31,7 +40,7 @@ Welcome to **Quick Cart**, a modern and scalable e-commerce platform built with 
 
 ## 📂 Project Structure
 
-```plaintext
+```groovy
 .env                # Environment variables
 .gitignore          # Ignored files for Git
 eslint.config.mjs   # ESLint configuration
