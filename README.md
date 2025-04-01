@@ -117,8 +117,13 @@ public/             # Publicly accessible static files
 ---
 
 ## 🖼️ Screenshots
+### UI 👤
+![quict-cart_E-commerce](https://github.com/user-attachments/assets/fa321ce8-76ce-43f3-925e-6a48b693633d)
 
-> 
+<br /><br />
+
+### Seller Dashboard 💹
+![seller-dashboard](https://github.com/user-attachments/assets/163f186d-d464-44ca-a92b-1f93a5eb5668)
 
 ---
 
@@ -130,7 +135,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/elyse502/quick-cart/blob/main/LICENSE) file for details.
 
 ---
 
@@ -156,3 +161,4 @@ For any questions or support, please contact:
 <div align="center">
 Made with ❤️ by <b>Elysée NIYIBIZI</b>
 </div>
+
